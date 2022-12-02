@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Udemy</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_items">
+            <a href="#">
+                <img src="./Images/Udemy.svg" alt="udemy logo" class="logo">
+            </a>
+            <div class="dropdown">
+                <button class="dropdown_btn">
+                    <span>Categories</span>
+                </button>
+
+                <div class="dropdown_list dropdown_content">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>Development</span>
+                                <img id="img" src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Business</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Finance & Accounting</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>IT & Software</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Ofice Productivity</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Personal Development</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Design</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Marketing</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lifestyle</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>photography & video</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Health & Fitness</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Music</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Teaching & Academics</span>
+                                <img src="./Images/black-nextbtn.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search">
+                <div>
+                    <img src="./Images/small-search.svg">
+                </div>
+                <label for="search">Search for anything</label>
+                <input type="text" id="search" placeholder="Search for anything">
+            </div>
+            <div class="udemy_bus dropdown">
+                <a href="#"><span>Udemy Business</span></a>
+                <div class="business dropdown_content">
+                    <div class="font_large margin">Get your team access to over 19,000 top Udemy courses, anytime, anywhere.</div>
+                    <a href="#" class="teach_btn font_large black">Try Udemy Business</a>
+                </div>
+            </div>
+            <div class="udemy_teach dropdown">
+                <a href="#"><span>Teach on Udemy</span></a>
+                <div class="teach dropdown_content">
+                    <div class="font_large margin">Turn what you know into an opportunity and reach millions around the world.</div>
+                    <a href="#" class="teach_btn font_large black">Learn more</a>
+                </div>
+            </div>
+            <div class="cart dropdown">
+                <div class="cart_logo">
+                    <img src="./Images/cart.svg">
+                </div>
+                <div class="dropdown_content cart_drop">
+                    <div class="margin cart_text">Your cart is empty</div>
+                    <a href="#" class="font_large">Keep shopping</a>
+                </div>
+            </div>
+            <div class="login">
+                <a href="#" class="grey">Log in</a>
+            </div>
+            <div class="signup">
+                <a href="#" class="black">Sign up</a>
+            </div>
+            <button class="www grey">
+                <img src="./Images/black-www.svg">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="billboard">
+            <img src="./Images/billboard1.jpg">
+            <div class="billboard_card">
+                <h1>Learning that gets you</h1>
+                <p>Skils for your present (and your future). Get started with us.</p>
+            </div>
+        </section>
+
+        <section class="courses_section">
+            <div class="courses">
+                <div class="courses_header">
+                    <h1>A broad selection of courses</h1>
+                    <p>Choose from 213,000 online video courses with new additions published every month</p>
+                </div>
+                <div class="individual_courses">
+                    <div class="individual_courses_header">
+                        <div class="course">
+                            <button id="python">Python</button></div>
+                        <div class="course">
+                            <button>Excel</button>
+                        </div>
+                        <div class="course">
+                            <button>Web Development</button>
+                        </div>
+                        <div class="course">
+                            <button>JavaScript</button>
+                        </div>
+                        <div class="course">
+                            <button>Data Science</button>
+                        </div>
+                        <div class="course">
+                            <button>AWS Certification</button>
+                        </div>
+                        <div class="course">
+                            <button>Drawing</button>
+                        </div>
+                    </div>
+                    <div class="python">
+                        <div class="python_details">
+                            <div class="python_texts">
+                                <h2 class="font_large">Expand your career opportunities with Python</h2>
+                                <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...</p>
+                            </div>
+                            <a class="python_btn font_large grey">Explore Python</a>
+                        </div>
+                        <div class="carousel">
+                            <div class="carousel_courses">
+                                <div class="carousel_items">
+                                    <img src="./Images/py1.jpg">
+                                    <div class="course_text">
+                                        <h3>Learn Python: The Complete Python Programming Course</h3>
+                                        <div class="instructor">Avinash Jain, The Codex</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.3</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(3,994)</span>
+                                        </div>
+                                        <div class="price">₦14,900</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py2.jpg">
+                                    <div class="course_text">
+                                        <h3>Learning Python for Data Analysis and Visualizaton</h3>
+                                        <div class="instructor">Jose Portilla</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.3</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(18.482)</span>
+                                        </div>
+                                        <div class="price .best_price">₦29,900</div>
+                                        <div class="best">Bestseller</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py3.jpg">
+                                    <div class="course_text">
+                                        <h3>Python for Beginners - Learn Programming from scratch</h3>
+                                        <div class="instructor">Edwin Diaz, Coding Faculty Solutions</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.3</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(2,251)</span>
+                                        </div>
+                                        <div class="price">₦14,900</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py4.jpg">
+                                    <div class="course_text">
+                                        <h3>Python from Scratch & Selenium WebDriver QA...</h3>
+                                        <div class="instructor">Admas Kinfu</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.5</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(2,207)</span>
+                                        </div>
+                                        <div class="price">₦19,900</div>
+                                        <div class="best">Bestseller</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py5.jpg">
+                                    <div class="course_text">
+                                        <h3>Teach Your Kids to Code: Learn to Program Python at Any Age!</h3>
+                                        <div class="instructor">Bryson Payne</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.5</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(9,030)</span>
+                                        </div>
+                                        <div class="price">₦6,500</div>
+                                        <div class="best">Bestseller</div>
+                                    </div>
+                                </div>
+                                <!-- <div class="carousel_items">
+                                    <img src="./Images/py6.jpg">
+                                    <div class="course_text">
+                                        <h3>Python for Data Stuctures, Algorithms, and Interviews!</h3>
+                                        <div class="instructor">Jose Portilla</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.5</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(10,948)</span>
+                                        </div>
+                                        <div class="price">₦24,900</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py7.jpg">
+                                    <div class="course_text">
+                                        <h3>Automate the Boring Stuff with Python Programming</h3>
+                                        <div class="instructor">AI Sweigart</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.7</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(103,828)</span>
+                                        </div>
+                                        <div class="price">₦10,500</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py8.jpg">
+                                    <div class="course_text">
+                                        <h3>Python 3 for Offensive PenTest: A complete Practice...</h3>
+                                        <div class="instructor">Hussam Khrais</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.6</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(1,596)</span>
+                                        </div>
+                                        <div class="price">₦14,900</div>
+                                    </div>
+                                </div>
+                                <div class="carousel_items">
+                                    <img src="./Images/py9.jpg">
+                                    <div class="course_text">
+                                        <h3>2022 Complete Python Bootcamp From Zero to Hero...</h3>
+                                        <div class="instructor">Jose Portilla</div>
+                                        <div class="ratings">
+                                            <span>
+                                                <span>4.6</span>
+                                                <img src="./Images/rate.svg">
+                                            </span>
+                                            <span>(443,219)</span>
+                                        </div>
+                                        <div class="price">₦34,900</div>
+                                    </div> 
+                                </div> -->
+                                <button class="back_btn carousel_btn black" onclick="slides(-1)"><img src="./Images/svgexport-5.svg"></button>
+                                <button class="next_btn carousel_btn black" onclick="slides(1)"><img src="./Images/white-next-btn.svg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid_banner">
+                <div class="banner_items">
+                    <div class="each_banner">
+                        <div class="banner_img">
+                            <img src="./Images/play-btn.svg">
+                        </div>
+                        <div class="banner_text font_large">
+                            Learn in-demand skills with over 213,000 video courses
+                        </div>
+                    </div>
+                    <div class="each_banner">
+                        <div class="banner_img">
+                            <img src="./Images/black-star.svg">
+                        </div>
+                        <div class="banner_text font_large">
+                            Choose courses taught by real-world experts
+                        </div>
+                    </div>
+                    <div class="each_banner">
+                        <div class="banner_img">
+                            <img src="./Images/infinity.svg">
+                        </div>
+                        <div class="banner_text font_large">
+                            Learn at your own pace, with lifetime access on mobile and desktop
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="students_are_viewing">
+                <div class="text">
+                    <h2 class="font_large">Students are viewing</h2>
+                </div>
+                <div class="carousel">
+                    <div class="carousel_courses">
+                        <div class="carousel_items">
+                            <img src="./Images/student1.jpg">
+                            <div class="course_text">
+                                <h3>The Complete 2023 Web Development Bootcamp</h3>
+                                <div class="instructor">Dr. Angela Yu</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(240,676)</span>
+                                </div>
+                                <div class="price">₦34,900</div>
+                                <div class="best">Bestseller</div>
+                            </div>
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student2.jpg">
+                            <div class="course_text">
+                                <h3>100 Days of Code: The complete Python Pro Bootcamp for 2023</h3>
+                                <div class="instructor">Dr. Angela Yu</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(156,147)</span>
+                                </div>
+                                <div class="price .best_price">₦29,900</div>
+                                <div class="best">Bestseller</div>
+                            </div>
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student3.jpg">
+                            <div class="course_text">
+                                <h3>The Complete JavaScript Course 2023: From Zero to Expert</h3>
+                                <div class="instructor">Jonas Schmedtmann</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(158,697)</span>
+                                </div>
+                                <div class="price">₦34,900</div>
+                                <div class="best">Bestseller</div>
+                            </div>
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student4.jpg">
+                            <div class="course_text">
+                                <h3>React - The Complete Guide (incl Hooks, React Router, Redux)</h3>
+                                <div class="instructor">Academind by Maximillian Schwarzmuller,...</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.6</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(168,637)</span>
+                                </div>
+                                <div class="price">₦29,900</div>
+                                <div class="best">Bestseller</div>
+                            </div>
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student5.jpg">
+                            <div class="course_text">
+                                <h3>Ultimate AWS Certified Solutions Architect Associate...</h3>
+                                <div class="instructor">Stephane Maarek | AWS Certified Cloud...</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(156,237)</span>
+                                </div>
+                                <div class="price">₦29,900</div>
+                                <div class="best">Bestseller</div>
+                            </div>
+                        </div>
+                        <!-- <div class="carousel_items">
+                            <img src="./Images/student6.jpg">
+                            <div class="course_text">
+                                <h3>2022 Complete Python Bootcamp From Zero to Hero...</h3>
+                                <div class="instructor">Jose Portilla</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.6</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(443,219)</span>
+                                </div>
+                                <div class="price">₦34,900</div>
+                            </div> 
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student7.jpg">
+                            <div class="course_text">
+                                <h3>The Web Developer Bootcamp 2022</h3>
+                                <div class="instructor">Colt Steele</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(250,037)</span>
+                                </div>
+                                <div class="price">₦29,900</div>
+                            </div>
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student8.jpg">
+                            <div class="course_text">
+                                <h3>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h3>
+                                <div class="instructor">Stephane Maarek | AWS Certified Cloud...</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(118,383)</span>
+                                </div>
+                                <div class="price">₦13,500</div>
+                                <div class="best">Bestseller</div>
+                            </div>
+                        </div>
+                        <div class="carousel_items">
+                            <img src="./Images/student9.jpg">
+                            <div class="course_text">
+                                <h3>Microsoft Excel - Excel from Beginner to Advanced</h3>
+                                <div class="instructor">Kyle pew, Office Newb</div>
+                                <div class="ratings">
+                                    <span>
+                                        <span>4.7</span>
+                                        <img src="./Images/rate.svg">
+                                    </span>
+                                    <span>(341,844)</span>
+                                </div>
+                                <div class="price">₦17,900</div>
+                                <div class="best">Bestseller</div>
+                            </div> 
+                        </div> -->
+                        <button class="back_btn carousel_btn" onclick="slides(-1)"><img src="./Images/svgexport-5.svg"></button>
+                        <button class="next_btn carousel_btn" onclick="slides(1)"><img src="./Images/white-next-btn.svg"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="top_category">
+            <h2 class="font_large">Top Categories</h2>
+            <div class="top_categories">
+                <div class="top_category_card">
+                    <img src="./Images/top-category1.jpg">
+                    <div class="top_category_card_title font_large">Design</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category2.jpg">
+                    <div class="top_category_card_title font_large">Development</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category3.jpg">
+                    <div class="top_category_card_title font_large">Marketing</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category4.jpg">
+                    <div class="top_category_card_title font_large">IT and Software</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category5.jpg">
+                    <div class="top_category_card_title font_large">Personal Development</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category6.jpg">
+                    <div class="top_category_card_title font_large">Business</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category7.jpg">
+                    <div class="top_category_card_title font_large">photography</div>
+                </div>
+                <div class="top_category_card">
+                    <img src="./Images/top-category8.jpg">
+                    <div class="top_category_card_title font_large">Music</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trending_topics">
+            <h2 class="trending_topics_title font_large">Featured topics by category</h2>
+            <div class="all_trending_topics">
+                <div class="trending_topics_line">
+                    <h3 class="font_large">Developer</h3>
+                    <div class="each_topic">
+                        <span class="purple">Python</span>
+                        <span class="dim_text">36,354,994 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">Web Development</span>
+                        <span class="dim_text">11,415,615 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">Machine Learning</span>
+                        <span class="dim_text">7,070,015 students</span>
+                    </div>
+                </div>
+                <div class="trending_topics_line">
+                    <h3 class="font_large">Business</h3>
+                    <div class="each_topic">
+                        <span class="purple">Financial Analysis</span>
+                        <span class="dim_text">1,195,282 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">SQL</span>
+                        <span class="dim_text">5,977,561 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">PMP</span>
+                        <span class="dim_text">1,733,398 students</span>
+                    </div>
+                </div>
+                <div class="trending_topics_line">
+                    <h3 class="font_large">IT and Software</h3>
+                    <div class="each_topic">
+                        <span class="purple">AWS Certification</span>
+                        <span class="dim_text">6,078,244 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">Ethical Hacking</span>
+                        <span class="dim_text">10,931,066 students
+                        </span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">Cyber Security</span>
+                        <span class="dim_text">3,998,037 students</span>
+                    </div>
+                </div>
+                <div class="trending_topics_line">
+                    <h3 class="font_large">Design</h3>
+                    <div class="each_topic">
+                        <span class="purple">Photoshop</span>
+                        <span class="dim_text">10,909,736 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">Graphic Design</span>
+                        <span class="dim_text">3,381,052 students</span>
+                    </div>
+                    <div class="each_topic top">
+                        <span class="purple">Drawing</span>
+                        <span class="dim_text">2,410,849 students</span>
+                    </div>
+                </div>
+                <a href="#" class="topics_btn font_large grey">Explore more topics</a>
+            </div>
+        </section>
+
+        <div class="trusted_by_teams">
+            <div class="trusted_teams">
+                <h2>Trusted by over 13,400 great teams</h2>
+                <p>Leading companies use the same courses to help employess keep their skills fresh.</p>
+                <div class="teams">
+                    <div class="team">
+                        <img src="./Images/nasdaq-dark.svg" alt="Nasdaq logo">
+                    </div>
+                    <div class="team">
+                        <img src="./Images/volkswagen-dark.svg" alt="Volkswagen logo">
+                    </div>
+                    <div class="team">
+                        <img src="./Images/box-dark.svg" alt="Box logo">
+                    </div>
+                    <div class="team">
+                        <img src="./Images/netapp-dark.svg" alt="Netapp logo">
+                    </div>
+                    <div class="team">
+                        <img src="./Images/eventbrite-dark.svg" alt="Eventbrite logo">
+                    </div>
+                    <div class="team">
+                        <img src="./Images/tcs-dark.svg" alt="TCS logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="udemy_business_section">
+            <div class="height">
+                <div class="udemy_business">
+                    <div class="non_student">
+                        <img src="./Images/logo-ub.svg" alt="Udemy business logo" class="logo-ub_img">
+                        <h2>Upskill your team with Udemy Business</h2>
+                        <ul>
+                            <li>
+                                <div class="list_business">
+                                    <img src="./Images/black-circle.svg">
+                                    <span>Unlimited access to 19,000+ top Udemy courses, anytime, anywhere</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_business">
+                                    <img src="./Images/black-circle.svg">
+                                    <span>International course collection in 14 languages</span>
+                                </div> 
+                            </li>
+                            <li>
+                                <div class="list_business">
+                                    <img src="./Images/black-circle.svg">
+                                    <span>Top certifications in tech and business</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div>
+                            <div class="get_udemy_business font_large black udemy_business_btn">Get Udemy Business</div>
+                            <div class="udemy_business_learn_more font_large grey udemy_business_btn">Learn more</div>
+                        </div>
+                    </div>
+                    <img src="./Images/udemy-business.jpg" class="team_img">
+                </div>
+            </div>
+        </section>
+
+        <section class="instructor_section">
+            <div class="height">
+                <div class="become_an_instructor">
+                    <img src="./Images/instructor.jpg" alt="Image of a man human" class="bai_img">
+                    <div class="instructor_texts">
+                        <h3>Become an instructor</h3>
+                        <div class="instructor_texts_mid">Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</div>
+                        <div class="instructor_texts_btn ">
+                            <span class="instructor_texts_bttn black font_large">Start teaching today</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_links">
+                <ul>
+                    <li>Udemy Business</li>
+                    <li>Teach on Udemy</li>
+                    <li>Get the app</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+                <ul>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Help and Support</li>
+                    <li>Affiliate</li>
+                    <li>Investors</li>
+                </ul>
+                <ul>
+                    <li>Terms</li>
+                    <li>Privacy policy</li>
+                    <li>Cookie settings</li>
+                    <li>Sitemap</li>
+                    <li>Accessibility statement</li>
+                </ul>
+                <div class="english_www">
+                    <div class="english_www_btn">
+                        <img src="./Images/white-www.svg">
+                        <span>English</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_last">
+                <img src="./Images/Udemy-1.svg">
+                <div class="copyright">© 2022 Udemy, Inc</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
